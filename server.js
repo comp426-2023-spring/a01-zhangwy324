@@ -4,7 +4,6 @@ const http = require('http');
 const fs = require('fs');
 // Require minimist module (make sure you install this one via npm).
 const minimist = require('minimist');
-const { resourceLimits } = require('worker_threads');
 // Use minimist to process one argument `--port=` on the command line after `node server.js`.
 var argv = minimist(process.argv.slice(2));
 // Define a const `port` using the argument from the command line.
